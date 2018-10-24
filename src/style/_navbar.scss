@@ -1,0 +1,38 @@
+.navbar-brand{
+  font-family: arial, sans-serif;
+  font-weight:300;
+  i{
+    margin-right:5px;
+  }
+}
+
+.navbar-nav,
+.navbar-nav .nav-link,
+.navbar-nav .nav-item{
+  color: #FFFFFF !important;
+  opacity:0.70;
+  font-family: arial, sans-serif;
+  font-weight:100;
+}
+
+.navbar-nav,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item:hover,
+.navbar-nav.active .nav-item.active,
+.nav-item.active .nav-link.active,
+.navbar-nav .nav-item.active{
+  opacity: 1.0;
+}
+
+.navbar-nav .nav-link i.fa{
+  margin-right:5px;
+  color: #c6e4ff !important;
+}
+
+.nav-link i.fa{
+  margin-right:5px;
+}
+
+#app_navbar{
+  background-color: #3097D1;
+}

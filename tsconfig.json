@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "lib":[
+      "es6",
+      "dom"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "jsx": "react",
+    "useBabel":true,
+    "suppressOutputPathCheck":true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "webpack",
+    "node_modules/@types/es6-promise/index.d.ts",
+    "node_modules/@types/jest/index.d.ts",
+    "node_modules/@types/mocha/index.d.ts"
+  ]
+}
